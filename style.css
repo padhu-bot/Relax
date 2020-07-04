@@ -28,6 +28,20 @@ body {
   transform: scale(1);
 }
 
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#min{
+  border-radius: 50%;
+  height:3rem;
+  width:3rem;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #defcf9;
+  color:#3c9d9b;
+  border: .5rem solid white;
+}
 .circle {
   background-color: #defcf9;
   text-align: center;
